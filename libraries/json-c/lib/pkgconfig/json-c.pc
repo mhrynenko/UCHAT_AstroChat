@@ -1,0 +1,12 @@
+prefix=/Users/mvoishvill/.brew/Cellar/json-c/0.15
+exec_prefix=/Users/mvoishvill/.brew/Cellar/json-c/0.15
+libdir=/Users/mvoishvill/.brew/Cellar/json-c/0.15/lib
+includedir=/Users/mvoishvill/.brew/Cellar/json-c/0.15/include
+
+Name: json-c
+Description: A JSON implementation in C
+Version: 0.15
+Requires:
+Libs.private: 
+Libs: -L${libdir} -ljson-c
+Cflags: -I${includedir} -I${includedir}/json-c
