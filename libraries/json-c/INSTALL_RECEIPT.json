@@ -1,0 +1,39 @@
+{
+  "homebrew_version": "2.4.8-154-g886d2ed",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "INSTALL_RECEIPT.json",
+    "lib/pkgconfig/json-c.pc"
+  ],
+  "time": 1643274320,
+  "source_modified_time": 1595776425,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "0.15",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/Users/mvoishvill/.brew/Library/Taps/homebrew/homebrew-core/Formula/json-c.rb",
+    "tap_git_head": "9cff006d9187f414f609bdd167a54472de05f841",
+    "tap": "homebrew/core"
+  },
+  "arch": "x86_64",
+  "built_on": null
+}

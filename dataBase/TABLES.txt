@@ -1,0 +1,39 @@
+# USER
+id -> int UNIQUE
+login -> char* UNIQUE
+password ->	char*
+name -> char*
+registration_date -> int
+bio char*
+data_of_birth -> char*
+zodiac_sign -> int
+
+
+# GROUP
+id -> int UNIQUE
+name -> char*
+link -> char* UNIQUE
+bio -> char*
+id_creator -> int
+type -> int
+date_of_creation -> int
+
+
+# Message
+id -> int UNIQUE,"
+user_id -> int
+group_id -> int
+type -> int
+message -> char*
+edited -> char*
+file_name -> char*
+file_size -> int
+file_id -> int
+date_of_sending -> int
+
+# Member
+id -> int UNIQUE, 
+user_id -> int
+group_id -> int
+type -> int
+date_of_entry -> int

@@ -1,0 +1,473 @@
+#chat_window {
+    /*background-image: url('bg1.jpeg');
+    background-size: 2000px; 
+    background-repeat: no-repeat;
+    background-position: center;*/ 
+    background-color: rgb(15, 26, 49);
+}
+
+
+/*-------------------*/
+
+#send_message_button:hover {
+    background-size: 60px;
+    opacity: 0.95;
+}
+
+#send_message_button:active{
+    background-image: url('star_inactive (1).png');
+    opacity: 0.97;    
+}
+
+#send_message_button {
+    opacity: 0.7;
+    background-image: url('star_active (1).png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: unset;
+    border: unset;
+}
+
+
+/*-------------------*/
+
+#textview_focus_in {
+    opacity: 0.95;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    /*border-width: 5px;
+    border-color: black;*/
+    background-color: rgb(69, 70, 134);
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+
+
+#textview_focus_in text {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+
+#textview_focus_out {
+    opacity: 0.5;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    /*border-width: 5px;
+    border-color: black;*/
+    background-color: rgb(70, 71, 134);
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+
+
+#textview_focus_out text {
+    background-color: transparent;
+}
+
+/*-------------------*/
+#username_label_1{
+    font-size: 12px;
+    font-family: Courier;
+    padding: 1px;
+    color: rgb(167, 71, 71);
+}
+#username_label_2{
+    font-size: 12px;
+    font-family: Courier;
+    padding: 1px;
+    color: rgb(105, 160, 144);
+}
+#username_label_3{
+    font-size: 12px;
+    font-family: Courier;
+    padding: 1px;
+    color: rgb(145, 182, 212);
+}
+#username_label_4{
+    font-size: 12px;
+    font-family: Courier;
+    padding: 1px;
+    color: rgb(172, 142, 201);
+}
+
+#message_label_right {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px 0px 10px 10px;
+    background-color: rgb(69, 70, 134);
+}
+
+#message_label_left {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 0px 10px 10px 10px;
+    background-color: rgb(35, 36, 83);
+}
+
+
+/*-------------------*/
+
+
+#edit_and_delete_message_button:hover {
+    color: rgb(201, 226, 255);
+    text-shadow: 0px 0px 3px rgb(215, 232, 252);
+    background-color: rgb(23, 39, 73);
+    opacity: 0.95;
+}
+
+#edit_and_delete_message_button:active{
+    color: whitesmoke;
+    background-color: rgb(255, 249, 249);
+    opacity: 0.95;
+}
+
+#edit_and_delete_message_button {
+    background-color: rgb(15, 26, 49);
+    opacity: 0.9;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(145, 176, 233);
+    text-shadow: 0px 0px 3px #ffffff;
+    box-shadow: unset;
+    border-width: 0px;
+}
+
+
+
+/*-------------------*/
+
+
+#more_menubutton:hover {
+    background-size: 30px;
+    opacity: 0.95;
+}
+
+#more_menubutton:active{
+    background-image: url('more_unactive.png');
+    opacity: 0.97;    
+}
+
+#more_menubutton {
+    opacity: 0.7;
+    background-image: url('more_active.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: unset;
+    border: unset;
+}
+
+
+/*-------------------*/
+
+
+#find_entry {
+    background-color: unset;
+    border-color:rgb(150, 197, 255);
+    color: aliceblue;
+    font-family: monospace;
+}
+
+
+/*-------------------*/
+
+#settings_popovermenu {
+    background-color: unset;
+    box-shadow: unset;
+    border: unset; 
+}
+
+
+/*-------------------*/
+
+#create_chat_button:hover {
+    background-image: url('add_unactive.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left;
+    color: rgb(201, 226, 255);
+    text-shadow: 0px 0px 3px rgb(215, 232, 252);
+    background-color: rgb(23, 39, 73);
+    opacity: 1;
+}
+
+#create_chat_button:active{
+    padding: 3px;
+    color: whitesmoke;
+    background-color: rgb(255, 249, 249);
+    opacity: 1;
+}
+
+#create_chat_button {
+    background-image: url('add_active.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: rgb(15, 26, 49);
+    opacity: 1;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(145, 176, 233);
+    text-shadow: 0px 0px 3px #ffffff;
+    border-radius: 10px;
+    box-shadow: unset;
+    border-width: 0px;
+}
+
+
+/*-------------------*/
+
+
+#exit_button:hover {
+    background-image: url('logout_unactive.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left;
+    color: rgb(201, 226, 255);
+    text-shadow: 0px 0px 3px rgb(215, 232, 252);
+    background-color: rgb(23, 39, 73);
+    opacity: 0.95;
+}
+
+#exit_button:active{
+    padding: 7px;
+    color: whitesmoke;
+    background-color: rgb(255, 249, 249);
+    opacity: 0.95;
+}
+
+#exit_button {
+    background-image: url('logout_active.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: rgba(15, 26, 49, 0.482);
+    opacity: 0.797;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(145, 176, 233);
+    text-shadow: 0px 0px 3px #ffffff;
+    border-radius: 10px;
+    box-shadow: unset;
+    border-width: 0px;
+}
+
+
+/*-------------------*/
+
+
+#stacksidebar needs-attention{
+    border-width: 5px;
+    border-color: red;
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 39, 73);
+    opacity: 0.95;
+}
+
+
+
+/*-------------------*/
+
+
+#entry_with_error {
+    border-color: red;
+    opacity: 0.9;
+    border-width: 2px;
+}
+
+
+/*-------------------*/
+
+
+#label_for_aries {
+    background-image: url('ZODIAC/Aries.png');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#label_for_taurus {
+    background-image: url('ZODIAC/Taurus.png');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#label_for_gemini {
+    background-image: url('ZODIAC/Gemini.png');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#label_for_cancer {
+    background-image: url('ZODIAC/Cancer.png');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#label_for_leo {
+    background-image: url('ZODIAC/Leo.png');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#label_for_virgo {
+    background-image: url('ZODIAC/Virgo.png');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#label_for_libra {
+    background-image: url('ZODIAC/Libra.png');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#label_for_scorpio {
+    background-image: url('ZODIAC/Scorpio.png');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#label_for_sagittatius {
+    background-image: url('ZODIAC/Sagittarius.png');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#label_for_capricorn {
+    background-image: url('ZODIAC/Capricorn.png');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#label_for_aquarius {
+    background-image: url('ZODIAC/Aquarius.png');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#label_for_pisces {
+    background-image: url('ZODIAC/Pisces.png');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#label_for_astro {
+    background-image: url('Astro2.png');
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#label_for_prediction {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(201, 226, 255);
+    text-shadow: 0px 0px 3px rgb(215, 232, 252);
+}
+
+
+/*-------------------*/
+
+
+#message_time_label {
+    font-size: 9px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    color: rgb(195, 178, 240);
+}
+
+
+/*-------------------*/
+
+
+#editing_label {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(205, 202, 252);
+}
+
+#editing_textview {
+    opacity: 0.95;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: black;
+    background-color: rgb(205, 202, 252);
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+
+#editing_textview text {
+    background-color: transparent;
+}
+
+
+/*-------------------*/
+
+button:hover {
+    border-radius: 50px;
+    color: whitesmoke;
+    background-image: unset;
+    opacity: 0.95;
+}
+
+button:active{
+    color: rgb(159, 159, 159);
+    opacity: 0.97;
+    background-image: unset;        
+}
+
+button {
+    opacity: 0.797;
+    background-image: unset;
+    font-family: fantasy;
+    font-size: 13px;
+    color: rgb(201, 226, 255);
+    text-shadow: 0px 0px 3px rgb(215, 232, 252);
+    border-radius: 20px;
+    box-shadow: unset;
+    border-width: 0px;
+}
+
+/*-------------------*/
+
+#chatname_scrolledwindow {
+    border-top: unset;
+    border-bottom: unset;
+    border-left: unset;
+    border-right-width: 2px;
+    border-top-right-radius: 20px;
+    border-right-color: rgb(150, 197, 255);
+    background-color: rgb(23, 39, 73);
+}
