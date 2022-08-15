@@ -2,7 +2,7 @@
 
 ### Description
 This is our implementation of the real-time messaging application with astrology theme. It was a team app, where I did frontend part.  
-I was engaged in the main layout and development of the login and registration window of our chat, validation of incoming user data, such as login, password, date of birth. Also I took part in the final layout of the chat, displaying the created groups, chats, helped with displaying, editing and deleting messages.
+I was engaged in the main layout and development of the login and registration window of our chat, validation of incoming user data, such as login, password, date of birth. Also I took part in the final layout of the chat, displaying the created groups, chats, helped with displaying, editing and deleting messages.   
 By the way, this app was developed just in 14 days.
 
 
